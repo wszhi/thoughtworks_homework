@@ -1,0 +1,353 @@
+* { margin:0; padding:0; }
+body{
+	background-color: #EEEEE0;
+}
+.hwheader, .hwheader2, .hwheader4, .hwheader5 { position:relative; _display:inline; }
+.header{
+	*overflow:hidden;
+	padding-top: 10px;
+	width: 100%;
+	height: 70px;
+	font-family: verdana;
+	color:#fff;
+	font-size:20px;
+	position: fixed;
+	background-color: #FFFAF0;
+	-moz-box-shadow: 0 0 5px 1px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.5);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.5);
+    text-align:center;
+	margin:0 auto;
+}
+.header div img{
+	padding: 0px;
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	
+}
+.header .hwheader{
+	width: 100px;
+	border-right: 2px solid #eff0f0;
+	padding-right: 2px solid #eff0f0;
+	float: left;
+}
+.header .hwheader2{
+	width:70px;  
+	padding-left: 20px;
+	float: left;
+}
+.header .hwheader2 img{
+	border: 2px solid #eff0f0;
+}
+.header .hwheader3{
+	float:left; 
+	width:40%;
+}
+.header .hwheader4{
+	margin-top: 0px;
+	margin-right: 0px;
+	width: 220px;
+	height: 40px;
+	float: right;
+	display: inline;
+	border: 2px solid #eff0f0;
+	border-radius: 50px;
+}
+
+.header .hwheader4 div{
+	padding-left: 20px;
+	float: left;
+	display:inline;
+}
+.header .hwheader4 input{
+	padding: 0px;
+	margin: 0px;
+	width: 120px;
+	height: 40px;
+	border:none;
+    display:block;
+    padding-left:0px;
+    padding-right: 20px;
+    margin-bottom:10px;
+    background: rgba(255, 255, 255, 0); 
+}
+.header .hwheader5{
+	
+	padding-left: 30px;
+	width: 60px;
+	float: right;
+}
+.left{
+	padding-top: 100px;
+	width: 300px;
+	height: 1200px;
+	color: white;
+	font-family: verdana;
+	background-color:#a3a9ff; 
+	text-align: center;
+	float: left;
+}
+.left .member{
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+}
+.left .member img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 35px;
+	border-radius: 50%;
+}
+.left .member p{
+	width: 300px;
+}
+.left .member .name{
+	font-size: 20px;
+}
+.left .member .icon{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.left .member a{
+	margin-left: 10px;
+	float: left;
+}
+.left .member .link{
+	padding-left: 80px;
+	text-align: center;
+}
+.left .member button{
+	margin-top: 50px;
+	margin-left: -280px;
+	color: white;
+	font-family: verdana;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	border: 0px;
+	border-radius: 20px;
+	background-color: #858efe;
+	margin-bottom: 50px;
+}
+.left .photo div{
+	width: 100%;
+	
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.left .photo div img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.left .activity{
+	width: 100%;
+	text-align: left;
+}
+.left .activity #activitytitle{
+	margin-left: 40px;
+	font-size: 20px;
+	color: white;
+}
+.left .activity div img{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.left .activity div .fontone{
+	color: #8c8d97;
+	float: left;
+}
+.left .activity div{
+	width: 100%;
+	float: left;
+	display: inline;
+}
+.left .activity div .fontone , u{
+	float: left;
+}
+.left .activity div u{
+	margin-left: 10px;
+}
+
+.right{
+	padding-top: 100px;
+	padding-left: 13px;
+	width: 300px;
+	height: 1200px;
+	color: black;
+	font-family: verdana;
+	background-color: #FFFAF0;
+	text-align: left;
+	float: right;
+}
+.right .trends a{
+	color: #20abfe;
+	font-size: 15px;
+	line-height: 23px;
+}
+.right .followmember .ftitle{
+	width: 100%;
+	text-align: left;
+	display: inline;
+}
+.right .followmember .ftitle  p{
+	width: 200px;
+	float: left;
+}
+.right .followmember .ftitle  a{
+	color:  #20abfe;
+	padding-right: 15px;
+	float: left;
+}
+.right .followmember .people{
+	padding-top: 25px;
+	font-size: 15px;
+	width: 100%;
+}
+.right .followmember .people .peopleicon{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	padding-right: 15px;
+	float: left;
+}
+.right .followmember .people div{
+	width: 200px;
+	float: left;
+}
+.right .followmember .people .icon{
+	border: 1px solid #eff0f0;
+	width: 20px;
+	height: 20px;
+}
+.content{
+	width: 47%;
+	float: left;
+	margin-top: 100px;
+	height: 1200px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.content #contentnav{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	height: 80px;
+	color: black;
+	font-size: 15px;
+	font-family: verdana;
+	background-color: #FFFAF0;
+	text-align: center;
+	-moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+}
+.content #contentnav #navlist li{
+	padding-top: 8px;
+	float: left;
+	width: 25%;
+	display: block;
+}
+.content #contentnav #navlist li a .tips{
+	color: #acaeaf;
+}
+.content #contentnav #navlist li a .number{
+	color: black;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+.content #contentnav #navlist li a, #navlist li a:link{
+	text-decoration: none;
+	padding: 3px 5px 3px 5px;
+	display: block;
+}
+.content #contentnav #navlist li a:hover{
+	border-bottom: 5px solid #a3a9ff;
+	cursor: pointer;
+
+}
+.content #contentnav #navlist li a#current, #navlist li a#current:link{
+	cursor: default;
+	border-bottom: 5px solid #a3a9ff;
+}
+.content #contentnav #navlist li a#current:hover{
+	border-bottom: 5px solid #a3a9ff;
+}
+.content .tweets{
+	margin-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style-type: none;
+	width: 100%;
+	color: black;
+	font-size: 15px;
+	font-family: verdana;
+	background-color: #FFFAF0;
+	text-align: left;
+	-moz-box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+}
+.content .tweets .share{
+	height: auto;
+	display: inline-block;
+}
+.content .tweets .share .peopleicon{
+	width: 80px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.content .tweets .share .peopleinfo{
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	
+}
+.content .tweets .share .peopleicon img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	padding-right: 15px;
+	float: left;
+}
+.content .tweets .share .peopleinfo .contentinfo , .showphoto{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content .tweets .share .peopleinfo p{
+	float: left;
+}
+ .content .tweets .share .peopleinfo .name{
+ 	font-weight: bold;
+ 	margin-right: 10px;
+}
+.content .tweets .share .peopleinfo .time{
+	float: right;
+}
+.content .tweets .share .peopleinfo img{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+}
+.content .tweets .share div img:last-child{
+	float: right;
+}
+.content .tweets .share div .showphoto{
+	width: 500px;
+	height: 300px;
+	border-radius: 0;
+}
